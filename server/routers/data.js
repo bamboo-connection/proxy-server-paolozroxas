@@ -7,11 +7,11 @@ router.get('/:id/gallery', (req, res) => {
 });
 
 router.get('/:id/overview', (req, res) => {
-  res.redirect('http://54.177.233.239/api/restaurants/' + req.params.id + '/overview');
+  res.redirect('http://184.169.248.150/api/restaurants/' + req.params.id + '/overview');
 });
 
 router.get('/:id/sidebar', (req, res) => {
-  res.redirect('http://184.169.248.150/api/restaurants/' + req.params.id + '/sidebar');
+  res.redirect('http://54.177.233.239/api/restaurants/' + req.params.id + '/sidebar');
 });
 
 router.get('/:id/recommendations', (req, res) => {
